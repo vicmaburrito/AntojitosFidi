@@ -319,31 +319,39 @@ button:focus{
 
 .about-section-box{
 	padding: 70px 0px;
-	background: #ffffff url(../images/about-bg.jpg) no-repeat bottom center;
+	background: #ffffff url(../image-fidi/about-bgpaper.jpg) no-repeat bottom center;
 	background-size: cover;
 }
 .about-section-box .img-fluid{
-	box-shadow: 20px 20px 0px #d65106;
+	box-shadow: 20px 20px 0px#d65106;
 }
 .inner-column{
 	text-align: left;
 }
 .inner-column h1{
 	font-family: 'Rubik', sans-serif;
-	font-size: 30px;
-	color: #010101;
-	font-weight: 500;
+	font-size: 44px;
+	color: #505050;
+    font-weight: 500;
+    
 }
 .inner-column h1 span{
-	color: #d65106;
+    color: #d65106;
+    font-family: 'Rubik', sans-serif;
+
 }
 .inner-column h4{
 	font-size: 16px;
-	font-weight: 500;
+    font-weight: 500;
+    color: #404040;
 }
 .inner-column p{
 	font-size: 18px;
-	color: #222222;
+	color: #303030 ;
+}
+.inner-column p span{
+	font-size: 18px;
+	color: #d65106;
 }
 .inner-column .btn-outline-new-white{
 	color: #fff;
@@ -358,7 +366,7 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/qt-bg.jpg) no-repeat;
+	background: url(../image-fidi/tripa.jpg) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
