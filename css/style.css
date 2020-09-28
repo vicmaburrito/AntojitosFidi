@@ -323,7 +323,7 @@ button:focus{
 	background-size: cover;
 }
 .about-section-box .img-fluid{
-	box-shadow: 20px 20px 0px#d65106;
+	box-shadow: 10px 10px 0px#d65106;
 }
 .inner-column{
 	text-align: left;
@@ -411,7 +411,6 @@ button:focus{
 	margin: 0px;
 }
 
-.inner-menu-box{}
 .inner-menu-box .nav-pills .nav-link.active{
 	background: #d65106;
 }
