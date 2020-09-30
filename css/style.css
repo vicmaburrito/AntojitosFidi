@@ -306,11 +306,16 @@ button:focus{
 	color: #fff;
 }
 .slides-pagination a{
-	border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
+    width: 1%;
+    height: 1%;
+
+
 }
 .slides-pagination a.current{
 	background: #d65106;
-	border: 2px solid #d65106;
+    border: 8px solid #d65106;
+    
 }
 
 /*------------------------------------------------------------------
@@ -319,7 +324,7 @@ button:focus{
 
 .about-section-box{
 	padding: 70px 0px;
-	background: #ffffff url(../image-fidi/about-bgpaper.jpg) no-repeat bottom center;
+	background: #ffffff url(../image-fidi/menu-bg.jpg) no-repeat bottom center;
 	background-size: cover;
 }
 .about-section-box .img-fluid{
