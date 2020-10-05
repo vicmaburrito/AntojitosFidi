@@ -188,7 +188,7 @@ button:focus{
 	background: #d65106;
 	color: #ffffff;
 }
-.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+.top-navbar .navbar-light .navbar-nav .nav-item.active{
 	background: #d65106;
 	color: #ffffff;
 	border-radius: 4px;
