@@ -741,9 +741,13 @@
 				<div class="col-lg-3 col-md-6">
 					<h3>Suscribete</h3>
 					<div class="subscribe_form">
-						<form class="subscribe_form">
-							<input name="EMAIL" id="txt1" class="form_input" placeholder="Correo Electronico..." type="text">
-							<button type="submit" id="btnEnviar " class="submit">Recibe Promociones</button>
+						<form id="task-form">
+							<div class="form-group">
+							<input type="email" id="task-email" class="form-control"  placeholder="Correo electronico.." autofocus>
+							</div>
+							<button class="submit" id="bnt-task-form">
+								Suscribirse
+						</button>
 							<div class="clearfix"></div>
 						</form>
 					</div>
@@ -796,7 +800,7 @@
 	<script src="js/custom.js"></script>
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-firestore.js"></script>
 
 <!-- database -->
 

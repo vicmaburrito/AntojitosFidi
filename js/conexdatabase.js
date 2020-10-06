@@ -1,10 +1,20 @@
-const txt1 = document.getElementById('txt1');
+const db = firebase.firestore();
 
-const database = firebase.database();
+const taskForm = document.getElementById('task-form');
 
-btnEnviar.addEventListener('click', (e) =>{ 
-    e.preventDefault();
-    database.ref('/nuevoTopico').set({
-        campo1: txt1.value
-    });
+const saveTask = (email) =>
+    db.collection('suscripciones').doc().set({
+    email,
+    
 });
+
+taskForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const email = taskForm['task-email'];
+
+    await saveTask(email.value);
+    
+    taskForm.reset();
+    title.focus();
+})
