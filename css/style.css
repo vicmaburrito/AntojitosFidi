@@ -163,10 +163,8 @@ button:focus{
 
 .top-navbar .navbar{
     padding: 15px 0px;
-    background-color: #010101;
 	position: fixed;
     width: 100%;
-    height: 12%;
 	border-radius: 0px 0px 100px 100px;
 	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
 	-webkit-transform: translate3d(0, 0, 0);
@@ -354,7 +352,7 @@ button:focus{
 }
 .inner-column p{
 	font-size: 18px;
-	color: #303030 ;
+    color: #303030 ;
 }
 .inner-column p span{
 	font-size: 18px;
@@ -543,7 +541,7 @@ button:focus{
 	.carousel-control-next{
 		right: -5px;
 	}
- 	.carousel-indicators{
+    .carousel-indicators{
 		top: 400px;
 	}
 }
